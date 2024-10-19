@@ -50,15 +50,15 @@ header {
  
 
     nav ul {
-    list-style: none; /* Убираем маркеры списка */
-    display: flex; /* Используем flex для горизонтального расположения элементов */
-    margin: 0; /* Убираем внешние отступы */
-    padding: 0; /* Убираем внутренние отступы */
-    color: #faf8f8; /* Цвет текста */
+    list-style: none; 
+    display: flex; 
+    margin: 0;
+    padding: 0; 
+    color: #faf8f8; 
 }
 
 nav ul li {
-    margin-right: 20px; /* Отступ между элементами списка */
+    margin-right: 20px;
 }
 
 

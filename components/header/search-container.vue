@@ -7,16 +7,16 @@
 
 <style>
     .search-container {
-        display: flex; /* Используем flex для центрирования */
-        justify-content: center; /* Центрируем содержимое */
-        height: 100%; /* Задаем высоту 100% родителя */
+        display: flex; 
+        justify-content: center; 
+        height: 100%; 
         flex: 1;
     }
 
     input {
-        padding: 10px; /* Отступы внутри инпута */
-        /* border: 1px solid #333; Граница инпута */
-        border-radius: 4px; /* Скругление углов */
+        padding: 10px; 
+        /* border: 1px solid #333; */
+        border-radius: 4px; 
         background-color: #333;
     }
 </style>

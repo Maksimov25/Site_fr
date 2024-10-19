@@ -55,7 +55,7 @@ export default {
 }
 
 .sidebar.expanded {
-  width: 200px; /* Ширина при наведении */
+  width: 200px; 
 }
 
 .menu-item {
@@ -64,33 +64,32 @@ export default {
   padding: 10px;
   width: 100%;
   text-align: left;
-  border: 1px solid transparent; /* Граница по умолчанию (прозрачная) */
-  border-radius: 5px; /* Закругление углов */
+  border: 1px solid transparent;
+  border-radius: 5px; 
   transition: border-color 0.3s ease;
 }
 
 .avatar {
-  width: 40px; /* Размер аватара */
+  width: 40px;
   height: 40px;
-  border-radius: 50%; /* Круглая форма */
-  margin-right: 10px; /* Отступ справа от аватара */
-}
+  border-radius: 50%; 
+  margin-right: 10px; }
 
 .menu-text {
-  display: none; /* Скрываем текст по умолчанию */
+  display: none; 
   transform: translateY(10px)
   
 }
 
 .sidebar.expanded .menu-text {
-  display: block; /* Показываем текст при наведении */
+  display: block; 
   transition-delay: 0s;
   transform: translateY(0);
   opacity: 1;
 }
 
 .menu-item:hover {
-  border-color: white; /* Цвет границы при наведении */
-  background-color: rgba(255, 255, 255, 0.1); /* Фоновый цвет при наведении */
+  border-color: white; 
+  background-color: rgba(255, 255, 255, 0.1); 
 }
 </style>
