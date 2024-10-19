@@ -3,15 +3,10 @@
         class="header"
     >
         
-        <ProfileIcon/> 
-        <NotificationsIcon/>
+        <ProfileIcon/>
         <SearchContainer/>
-         
-
             <nav>
                 <ul>
-                    <li><router-link to="/create">Создать форум</router-link></li>
-                    <li><router-link to="/about">О нас</router-link></li>
                     <li><router-link to="/contact">Поддержка</router-link></li>
                 </ul>
             </nav> 
@@ -21,17 +16,17 @@
   
   <script>
   import ProfileIcon from '@/components/header/profile-icon.vue';
-  import NotificationsIcon from '@/components/header/notifications-icon.vue';
   import SearchContainer from '@/components/header/search-container.vue';
+  
+
 
   export default {
     name: 'Header',
 
     components: {
         ProfileIcon,
-        NotificationsIcon,
+        // NotificationsIcon,
         SearchContainer
-
     }
 
   };
@@ -39,35 +34,42 @@
 
   </script>
   
+
   <style scoped>
-  
-  header {
+header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #333;
+  justify-content: space-between;
+}
+
+/* .nav-left, .nav-right {
     display: flex;
-    align-items: center;
-    padding: 15;
-    background-color: #f8f9fa;
-  }
+    align-items: center; /* Центрируем по вертикали */
+ 
 
+    nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    display: flex; /* Используем flex для горизонтального расположения элементов */
+    margin: 0; /* Убираем внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
+    color: #faf8f8; /* Цвет текста */
+}
 
-  nav ul {
-    list-style: none;
-    justify-content: space-between;
-    /* display: flex; */
-    gap: 20;
-    margin: auto;
-  }
+nav ul li {
+    margin-right: 20px; /* Отступ между элементами списка */
+}
+
 
 .circle {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #00ffd5; 
-  color: rgba(255, 255, 255, 0.771); 
+  background-color: #eef4f3; 
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 17px; 
 }
-
-  </style>
-  
+</style>

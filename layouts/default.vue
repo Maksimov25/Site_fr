@@ -3,19 +3,23 @@
         <Header />
         <nuxt :key="$route.fullPath" />
         <Footer />
+        <Sidebar />
     </div>
 </template>
 
 <script>
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
+import Sidebar from "@/components/sidebar/sidebar.vue";
+
 
 
 export default {
     name: "Default",
     components: {
         Header,
-        Footer
+        Footer,
+        Sidebar
     }
 };
 </script>

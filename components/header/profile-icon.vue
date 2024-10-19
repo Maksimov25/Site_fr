@@ -1,18 +1,17 @@
 <template>
-    <div class="profile-icon">
-        <router-link to="/profile">
-            <div class="circle">
-                <img src="123.jpg" width="360" height="200" alt="">
-            </div>
-        </router-link>
+    <div class="container">
+        <div class="profile-icon">
+            <router-link to="/profile">347564357</router-link>
+        </div>
     </div>
 </template>
 
-
 <style>
+
     .profile-icon {
+        display: flex;
         width: 30px;
         height: 30px;
-        margin: auto;
-        }
+        color: aliceblue;
+    }
 </style>
